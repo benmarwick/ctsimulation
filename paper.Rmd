@@ -14,7 +14,7 @@ Garvey Raven Current and potential roles of archaeology in the development of cu
 These electronic supplementary materials are also available online at https://dx.doi.org/10.6084/m9.figshare.c.3965853.
 
 ```{r}
-data <- read.csv("Garvey_data.csv", skip = 6)
+data <- read.csv("data/data.csv", skip = 6)
 str(data)
 ```
 
@@ -109,7 +109,7 @@ y.lim2   <- c(1.2, 1,       # set y limit for each plot
 ## The plot
 
 ```{r}
-pdf(file="Garvey_Figure3a.pdf", 
+pdf(file="figures/Garvey_Figure3a.pdf", 
     height = 12, width = 12)
 
 par(mfcol = c(length(count), 3))
@@ -358,14 +358,14 @@ dev.off()
 ```
 
 ```{r}
-knitr::include_graphics("Garvey_Figure3a.pdf")
+knitr::include_graphics("figures/Garvey_Figure3a.pdf")
 ```
 
 ## Kernel density plot to compare simulation results
 
 ```{r}
 
-pdf(file="Garvey_Figure3b.pdf", 
+pdf(file="figures/Garvey_Figure3b.pdf", 
     height = 3, width = 6)
 
 d10 <- density(diff10)
@@ -397,7 +397,7 @@ dev.off()
 ```
 
 ```{r}
-knitr::include_graphics("Garvey_Figure3b.pdf")
+knitr::include_graphics("figures/Garvey_Figure3b.pdf")
 ```
 
 
