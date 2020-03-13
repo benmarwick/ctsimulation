@@ -7,7 +7,9 @@
 
 This repository is a research compendium for code and data corresponding to research published in:
 
-> Garvey Raven Current and potential roles of archaeology in the development of cultural evolutionary theory. _Phil. Trans. R. Soc. B ans. R. Soc. B_ http://doi.org/10.1098/rstb.2017.0057
+> Garvey, Raven Current and potential roles of archaeology in the development of cultural evolutionary theory. _Phil. Trans. R. Soc. B ans. R. Soc. B_ http://doi.org/10.1098/rstb.2017.0057
+
+The author of this work is [Raven Garvey](https://lsa.umich.edu/anthro/people/faculty/archaeological-faculty/garveyr.html), and any correspondence about the research should be addressed directly to Prof Garvey. In this repository I have simply rearranged her materials while studying the results to understand them better. 
 
 These electronic supplementary materials are also available online at https://dx.doi.org/10.6084/m9.figshare.c.3965853.
 
