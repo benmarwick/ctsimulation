@@ -1,6 +1,6 @@
 Read data
 ```{r}
-data <- read.csv("/Users/##ENTER PATHWAY##/Garvey_data.csv")
+data <- read.csv("Garvey_data.csv")
 str(data)
 ```
 
@@ -64,7 +64,7 @@ y.lim2   <- c(1.2, 1,       # set y limit for each plot
 
 # The plot:
 
-pdf(file="/Users/##ENTER DESTINATION##/Garvey_Figure3.pdf", 
+pdf(file="Garvey_Figure3.pdf", 
     height = 12, width = 12)
 
 par(mfcol = c(length(count), 3))

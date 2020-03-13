@@ -11,7 +11,7 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Read data
 ```{r}
-data <- read.csv("/Users/##ENTER PATHWAY##/Garvey_data.csv")
+data <- read.csv("Garvey_data.csv", skip = 6) # modified by BM
 str(data)
 ```
 
@@ -75,7 +75,7 @@ y.lim2   <- c(1.2, 1,       # set y limit for each plot
 
 # The plot:
 
-pdf(file="/Users/##ENTER DESTINATION##/Garvey_Figure3.pdf", 
+pdf(file="Garvey_Figure3.pdf", 
     height = 12, width = 12)
 
 par(mfcol = c(length(count), 3))
@@ -299,4 +299,4 @@ mtext (text = "C. CV = 3%", side = 3,
 dev.off()
 ```
 
-
+![](Garvey_Figure3.pdf)
